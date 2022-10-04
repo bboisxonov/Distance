@@ -9,7 +9,7 @@ var formElement = document.getElementById("form")
 
 function hisobla(masofa,tezlik){
     var result = masofa/tezlik
-    return `${Math.floor(result)} soat ${Math.floor((result-Math.floor(result))*60)}minut`
+    return `${Math.floor(result)} hour(s) ${Math.floor((result-Math.floor(result))*60)}minute(s)`
 }
 
 // function hisobla(masofa,tezlik){
