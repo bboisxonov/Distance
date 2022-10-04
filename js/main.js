@@ -27,16 +27,16 @@ formElement.addEventListener('submit',(event) => {
     console.log("input jonatildi")
 
     if(masofaElement.value == "" || masofaElement.value == 0){
-        resultPiyoda.textContent = "masofa hato kiritildi"
+        resultPiyoda.textContent = "The distance was entered incorrectly"
         resultPiyoda.style.color = "red"
         
-        resultVelosiped.textContent = "masofa hato kiritildi"
+        resultVelosiped.textContent = "The distance was entered incorrectly"
         resultVelosiped.style.color = "red"
 
-        resultMashina.textContent = "masofa hato kiritildi"
+        resultMashina.textContent = "The distance was entered incorrectly"
         resultMashina.style.color = "red"
 
-        resultSamolyot.textContent = "masofa hato kiritildi"
+        resultSamolyot.textContent = "The distance was entered incorrectly"
         resultSamolyot.style.color = "red"
     }else{
         resultPiyoda.textContent = hisobla(Number(masofaElement.value),piyoda)
